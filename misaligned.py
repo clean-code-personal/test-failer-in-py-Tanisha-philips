@@ -1,7 +1,7 @@
 
 def print_color_map():
     major_colors = ["White", "Red", "Black", "Yellow", "Violet"]
-    minor_colors = ["Blue", "Orange", "Green", "Brown", "Slate"]
+    minor_colors = ["Blue", "Orange", "Green", "Brown"]
     for i, major in enumerate(major_colors):
         for j, minor in enumerate(minor_colors):
             print(f'{i * 5 + j} | {major} | {minor}')
