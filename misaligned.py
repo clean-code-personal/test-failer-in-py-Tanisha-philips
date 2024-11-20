@@ -15,7 +15,7 @@ def generate_color_map(major_colors, minor_colors):
 
 def print_color_map():
     major_colors = ["White", "Red", "Black", "Yellow", "Violet"]
-    minor_colors = ["Blue", "Orange", "Green", "Brown"]
+    minor_colors = ["Blue", "Orange", "Green", "Brown", "Slate"]
     rows = generate_color_map(major_colors, minor_colors)
     for row in rows:
         print(row)
